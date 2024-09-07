@@ -25,11 +25,9 @@
     <link href="templates/template17/css/libs241a.css?v=20240713" rel="stylesheet">
     <link href="common/calendar241a.css?v=20240713" rel="stylesheet">
     <link href="templates/template17/css/style241a.css?v=20240713" rel="stylesheet">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K9L0ZFE1PJ"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lazyload/17.3.0/lazyload.min.js"></script>
 
-    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-K9L0ZFE1PJ');</script>
-</head>
+    </head>
 <script type="text/javascript">
     var photoGalleries = [];
 </script>
@@ -1185,7 +1183,11 @@
                 return text.replace(/\n/g, '<br>').replace(/\s/g, "&nbsp;");
             }
         </script>
-
+<script>
+    setTimeout(function() {
+        document.querySelector('.preloader').style.display = 'none';
+    }, 5000); // 5000 milliseconds = 5 seconds
+    </script>
 
 </body>
 
