@@ -19129,3 +19129,6 @@ img.aos-init.aos-animate {
   height: 400px;
     width: auto;
 }
+.snowflake {
+  pointer-events: none; /* Prevents interaction and improves performance */
+}
